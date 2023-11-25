@@ -1,0 +1,111 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+/* ESTILO DO CABEÇALHO */
+header {
+    padding: 40px 4%;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #4b4949;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.03);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px #00ff08;
+    transform: scale(1.03);
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.TopoDoSite {
+    padding: 40px 4%;
+}
+
+section.TopoDoSite .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.TopoDoSite h1 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.TopoDoSite .txt-TopoDoSite h1 span {
+    color: #00ff08;
+}
+
+.TopoDoSite .txt-TopoDoSite p {
+    color: #fff;
+    margin: 40px 0;
+}
+
+.TopoDoSite .img-TopoDoSite img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}

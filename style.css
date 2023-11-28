@@ -41,6 +41,11 @@ h2.title span {
     color: #00ff08;
 }
 
+button:hover {
+    box-shadow: 0px 0px 8px #00ff08;
+    transform: scale(1.03);
+}
+
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
@@ -71,12 +76,6 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     padding: 0 40px;
-}
-
-
-.btn-contato button:hover {
-    box-shadow: 0px 0px 8px #00ff08;
-    transform: scale(1.03);
 }
 
 /* ESTILO DO TOPO DO SITE */
@@ -120,8 +119,9 @@ section.TopoDoSite .flex {
     }
 }
 
+/* ESTILO DAS ESPECIALIDADES */
 section.Especialidades {
-    padding: 40px 4%;
+    padding: 80px 4%;
 }
 
 section.Especialidades .flex {
@@ -149,4 +149,97 @@ section.Especialidades .flex {
 .Especialidades .especialidades-box h3 {
     font-size: 28px;
     margin: 15px 0;
+}
+
+/* ESTILO DO SOBRE */
+section.Sobre {
+    padding: 40px 4%;
+}
+
+section.Sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.Sobre .txt-sobre {
+    color: #fff;
+}
+
+.Sobre .txt-sobre h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.Sobre .txt-sobre h2 span {
+    color: #00ff08;
+    display: block;
+
+}
+
+.Sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.Sobre .txt-sobre .btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #00ff08;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+/* ESTILO DO PORTIFÓLIO */
+section.portifolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff10;
+}
+
+section.portifolio .flex {
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-port {
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    border-radius: 40px;
+    cursor: pointer;
+    position: relative;
+}
+
+.img-port:hover {
+    background-position: 100% 100%;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+
 }

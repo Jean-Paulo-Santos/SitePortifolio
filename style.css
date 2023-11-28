@@ -31,6 +31,16 @@ body {
     transition: .3s;
 }
 
+h2.title {
+    color: #fff;
+    font-size: 38;
+    text-align: center;
+}
+
+h2.title span {
+    color: #00ff08;
+}
+
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
@@ -108,4 +118,35 @@ section.TopoDoSite .flex {
     100% {
         top: 30px;
     }
+}
+
+section.Especialidades {
+    padding: 40px 4%;
+}
+
+section.Especialidades .flex {
+    gap: 60px;
+}
+
+.Especialidades .especialidades-box {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .4s;
+}
+
+.Especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff65;
+}
+
+.Especialidades .especialidades-box i {
+    font-size: 70px;
+    color: #00ff08;
+}
+
+.Especialidades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
 }

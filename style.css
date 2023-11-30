@@ -184,7 +184,7 @@ section.Sobre .flex {
     text-align: justify;
 }
 
-.Sobre .txt-sobre .btn-social button {
+.btn-social button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -291,4 +291,32 @@ form .btn-enviar input {
     font-weight: 700;
     transition: .2;
     text-align: center;
+}
+
+/* ESTILO DO RODAPE */
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff10;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 3px solid #00ff08;
+}
+
+footer .line-footer p i {
+    color: #00ff08;
+    font-size: 25px;
+}
+
+footer .line-footer p a {
+    color: #fff;
 }

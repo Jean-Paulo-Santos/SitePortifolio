@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #0A0903;
     height: 100vh;
 }
 
@@ -20,11 +20,17 @@ body {
     display: flex;
 }
 
+.logo h2 {
+    color: #d83d00;
+    padding: 0px;  
+
+}
+
 .btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00ff08;
+    background-color: #d83d00;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -38,12 +44,12 @@ h2.title {
 }
 
 h2.title span {
-    color: #00ff08;
+    color: #d83d00;
 }
 
 button:hover,
 form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #00ff08;
+    box-shadow: 0px 0px 8px #d83d00;
     transform: scale(1.03);
 }
 
@@ -98,7 +104,7 @@ section.TopoDoSite .flex {
 }
 
 .TopoDoSite .txt-TopoDoSite h1 span {
-    color: #00ff08;
+    color: #d83d00;
 }
 
 .TopoDoSite .txt-TopoDoSite p {
@@ -145,7 +151,7 @@ section.Especialidades .flex {
 
 .Especialidades .especialidades-box i {
     font-size: 70px;
-    color: #00ff08;
+    color: #d83d00;
 }
 
 .Especialidades .especialidades-box h3 {
@@ -174,7 +180,7 @@ section.Sobre .flex {
 }
 
 .Sobre .txt-sobre h2 span {
-    color: #00ff08;
+    color: #d83d00;
     display: block;
 
 }
@@ -189,7 +195,7 @@ section.Sobre .flex {
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #00ff08;
+    background-color: #d83d00;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -285,7 +291,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: #00ff08;
+    background-color: #d83d00;
     color: black;
     cursor: pointer;
     font-weight: 700;
@@ -309,11 +315,11 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 3px solid #00ff08;
+    border-top: 3px solid #d83d00;
 }
 
 footer .line-footer p i {
-    color: #00ff08;
+    color: #d83d00;
     font-size: 25px;
 }
 
